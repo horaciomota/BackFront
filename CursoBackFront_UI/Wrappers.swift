@@ -17,6 +17,7 @@ struct Wrappers: View {
                 .font(.system(size: 30, weight: .bold))
             
             Button("Alterar mensagem") {
+                // O toggle sempre vai fazer o contrario do bool. Se for true vira false e vice versa
                 exibirMensagem.toggle()
             }
             .padding()
