@@ -17,7 +17,7 @@ struct Login: View {
 
         ZStack {
             Color.black.ignoresSafeArea(.all)
-            VStack () {
+            VStack (spacing: 10){
                 Text("Login")
                 .foregroundColor(.white)
                 .font(.system(size: 40, weight: .bold))
@@ -26,17 +26,45 @@ struct Login: View {
                     .textFieldStyle(.roundedBorder)
                     .foregroundColor(Color.black)
                     .keyboardType(.emailAddress)
-                    .padding(.horizontal)
              
                 
-            SecureField("Digite seu email", text: $password)
+            SecureField("Digite sua senha", text: $password)
                     .textFieldStyle(.roundedBorder)
                     .foregroundColor(Color.black)
                     .keyboardType(.emailAddress)
-                    .padding(.horizontal)
+                
+                Button {
+                    print("Clique no botao")
+                } label: {
+                    Text("Login")
+                        .frame(height: 40)
+                        .frame(maxWidth: .infinity)
+                        .foregroundColor(.white)
+                        .font(.system(size: 20, weight: .bold))
+                        .background(Color(red: 228/225, green: 50/285, blue: 128/255))
+                        .cornerRadius(8)
+                    
+                }
+                
+                HStack {
+                    Text("Nao tem conta?")
+                        .foregroundColor(Color.white)
+                    
+                    Button {
+                        print("Clique no cadastre-se")
+                    } label: {
+                        Text("Cadastre-se")
+                            .foregroundColor(Color(red: 228/225, green: 50/285, blue: 128/255))
+                            .font(.system(size: 18, weight: .semibold))
+                        
+                    }
+                    
+                }
+
                 
                 Spacer()
             }
+            .padding(.horizontal, 20)
         }
 
 
