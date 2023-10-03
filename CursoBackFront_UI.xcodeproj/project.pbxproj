@@ -12,7 +12,7 @@
 		83A561E32ACC6E6E000B5BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A561E22ACC6E6E000B5BAF /* Assets.xcassets */; };
 		83A561E62ACC6E6E000B5BAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A561E52ACC6E6E000B5BAF /* Preview Assets.xcassets */; };
 		83A561ED2ACC7368000B5BAF /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561EC2ACC7368000B5BAF /* Login.swift */; };
-		83A561EF2ACC80BB000B5BAF /* Wrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561EE2ACC80BB000B5BAF /* Wrappers.swift */; };
+		83A561EF2ACC80BB000B5BAF /* Wrappers-State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561EE2ACC80BB000B5BAF /* Wrappers-State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		83A561E22ACC6E6E000B5BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83A561E52ACC6E6E000B5BAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83A561EC2ACC7368000B5BAF /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		83A561EE2ACC80BB000B5BAF /* Wrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrappers.swift; sourceTree = "<group>"; };
+		83A561EE2ACC80BB000B5BAF /* Wrappers-State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wrappers-State.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				83A561DE2ACC6E68000B5BAF /* CursoBackFront_UIApp.swift */,
-				83A561EE2ACC80BB000B5BAF /* Wrappers.swift */,
+				83A561EE2ACC80BB000B5BAF /* Wrappers-State.swift */,
 				83A561E02ACC6E68000B5BAF /* ContentView.swift */,
 				83A561EC2ACC7368000B5BAF /* Login.swift */,
 				83A561E22ACC6E6E000B5BAF /* Assets.xcassets */,
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A561ED2ACC7368000B5BAF /* Login.swift in Sources */,
-				83A561EF2ACC80BB000B5BAF /* Wrappers.swift in Sources */,
+				83A561EF2ACC80BB000B5BAF /* Wrappers-State.swift in Sources */,
 				83A561E12ACC6E68000B5BAF /* ContentView.swift in Sources */,
 				83A561DF2ACC6E68000B5BAF /* CursoBackFront_UIApp.swift in Sources */,
 			);
